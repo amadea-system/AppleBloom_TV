@@ -1,4 +1,4 @@
-"""DataUpdateCoordinator for integration_blueprint."""
+"""DataUpdateCoordinator for applebloom_tv."""
 from __future__ import annotations
 
 from datetime import timedelta
