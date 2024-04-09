@@ -5,6 +5,7 @@ set -e
 # Should we use .devcontainer.json "features" instead?
 # https://containers.dev/features https://code.visualstudio.com/blogs/2022/09/15/dev-container-features
 sudo apt-get update
+sudo apt-get -y install libpcap-dev
 sudo apt-get -y install ffmpeg
 
 cd "$(dirname "$0")/.."
